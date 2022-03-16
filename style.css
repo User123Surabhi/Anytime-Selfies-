@@ -1,0 +1,37 @@
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(12, 3, 133);
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(12, 3, 133);
+}
+#description{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(12, 3, 133);
+}
+#take_pic{
+    color:bisque;
+    background-color: crimson;
+}
+#apply_filter{
+    color: chartreuse;
+    background-color: green;
+}
+#view{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+}
+#back{
+    color: darkcyan;
+    background-color: darkviolet;
+}
+#Next_page {
+    color:mediumvioletred;
+    background-color: mediumspringgreen;
+}

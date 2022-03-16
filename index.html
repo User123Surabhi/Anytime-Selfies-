@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Anytime Selfies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        h3
+        {
+          font-size: 25px !important;
+        }
+        
+    </style>
+  </head>
+  <body background="bday bg.jpg">
+  
+    <div class="container">
+     <center>
+      <h2 id="title">Anytime Selfies!</h3>
+      <hr>
+      <h5 id="description">Time for some Selfies!!! Type in a color in the given box and that color filter will appear on your screen! Click on the view colors button to see all the colors that are possible to put as a filter!! If you don't want any color, type in "No color". After you are happy with your output, click on "Take snapshot" to download your picture! Have fun!!</h5>
+      <label>Filter Color: </label>
+      <input id = "color_name" placeholder = "Enter Color">
+      <br>
+      <button id="apply_filter"onclick="filter_tint()">Apply Filter</button>
+      <br>
+      <button onclick="take_snapshot()" id="take_pic">Take Snapshot</button>
+      <br>
+      <button onclick="next_page()" id="Next_page">View Colors</button>
+    </center>
+    </div>
+        <script src="main.js"></script>
+    </body>
+  </html>
